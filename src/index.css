@@ -76,6 +76,14 @@ input::placeholder {
 }
 
 
+.imgetgif{
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block;
+    /* background-color: aqua; */
+}
+
 
 
 
