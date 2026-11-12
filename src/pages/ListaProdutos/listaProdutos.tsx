@@ -4,6 +4,7 @@ import Lagrande from '../../assets/img/produtos/le_grand_chocolat.png'
 import icon from '../../assets/icones/user.svg'
 import icon2 from '../../assets/icones/star.svg'
 import { Link } from 'react-router-dom'
+import Card from '../../components/card/Card'
 function ListaProdutos() {
     return (
         <>
@@ -17,7 +18,15 @@ function ListaProdutos() {
                         <hr />
                     </div>
                     <div className="prod_cards">
-                        <article className="prod_card">
+                        <Card 
+                        Lagrande={Lagrande}
+                         nome={'Le Grand Chocolat'} 
+                         descricao={'Mouse de chocolate Belga 70%,praliné de avelãs e biscui de cacau'}
+                          valor={185.0}
+                           quantidadedeAvaliacoes={10} 
+                           nota={9.5}/>
+                           
+                        {/* <article className="prod_card">
                             <figure>
                                 <img
                                     src={Lagrande}
@@ -25,10 +34,10 @@ function ListaProdutos() {
                                 />
                             </figure>
                             <h2>
-                                <Link to="./detalheProduto" >Le Grand Chocolat</Link>
+                                <Link to="/detalheProduto" >Le Grand Chocolat</Link>
                             </h2>
                             <p className="card_desc">
-                                Mousse de chocolate belga 70%, praliné de avelãs e biscuit de cacau.
+                                
                             </p>
                             <p className="card_rodape">
                                 <data value={185.0}>R$ 185,00 / kg</data>
@@ -39,7 +48,7 @@ function ListaProdutos() {
                                     <data value="9.5">9,5</data>
                                 </span>
                             </p>
-                        </article>
+                        </article> */}
                     </div>
                 </section>
             </main>
