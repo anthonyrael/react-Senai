@@ -24,7 +24,7 @@ function home() {
                   meu atelier, onde a tradição francesa encontra a doçura do coração.”
                 </p>
                 <Link className="linha4" 
-                to="https://w.app/i8q4bk" target="_blank">
+                to="https://wa.me/551142252001?text=gostaria%20de%20encomendar%20" target="_blank">
               
                   encomendar agora
               
@@ -54,19 +54,19 @@ function home() {
               <hr />
             </div>
             <div className="container_categorias">
-              <Link to="/produtos">
+              <Link to="/produtos?cateoria=1">
                 <div className="img_categoria1">
                   <span>Momentos Inesquecíveis</span>
                   <h3>Bolos de Festa</h3>
                 </div>
               </Link>
               <div className="col_categorias">
-                <Link to="/produtos">
+                <Link to="/produtos?categoria=2">
                   <div className="img_categoria2">
                     <h3>Tortas Francesas</h3>
                   </div>
                 </Link>
-                <Link to="/produtos">
+                <Link to="/produtos?categoria=3">
                   <div className="img_categoria3">
                     <h3>Bolos Caseiros</h3>
                   </div>

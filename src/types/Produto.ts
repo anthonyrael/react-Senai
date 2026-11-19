@@ -1,4 +1,5 @@
 export type Produto ={
+    categoriaIds: any
     id:number
     nome:string
     descricaoCurta:string
